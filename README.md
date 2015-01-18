@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Reddit WebM Bot
 Reddit bot to convert YouTube videos to WebM format.
 
@@ -19,4 +18,3 @@ Usage
 =======
 # Reddit-WebM-Bot
 Reddit WebM Bot
->>>>>>> c011ffdea4f3a2f14856f567a548a6da409794ae
