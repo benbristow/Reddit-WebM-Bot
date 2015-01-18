@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
 #Settings
-username = "webm_bot"
-password = "o2TaDRssW2DV"
-@subreddit = "montageparodies"
+username = "changeme"
+password = "changeme"
+@subreddit = "changeme"
 #End Settings
 
 #Bundler
