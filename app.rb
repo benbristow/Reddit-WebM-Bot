@@ -125,7 +125,11 @@ reddit_browser = Redd::Client::Unauthenticated.new
 reddit_user = Redd::Client::Authenticated.new_from_credentials "#{username}", "#{password}", user_agent: "WebM Bot v1.0 by /u/ben_uk"
 
 while true
-  checkSubmissions(reddit_browser, reddit_user, database)
-  puts "> Done! Resting for 60 seconds..."
+	begin
+  	checkSubmissions(reddit_browser, reddit_user, database)
+		puts "> Done! Resting for 60 seconds..."
+	rescue  
+		puts "> Something went wrong. Let's just wait it out."
+	end
   sleep 60
 end
